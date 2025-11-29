@@ -1,0 +1,72 @@
+# Simulation outputs
+*.vcd
+*.vvp
+*.out
+*.log
+*.wlf
+
+# Compiled simulation binaries
+cpu_sim
+a.out
+simv
+csrc/
+
+# ModelSim files
+work/
+*.mti
+*.mpf
+transcript
+vsim.wlf
+wlft*
+*.bak
+
+# Vivado/Xilinx files
+*.jou
+*.str
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+vivado*.log
+vivado*.jou
+.Xil/
+
+# Quartus files
+*.qpf
+*.qsf
+*.qarlog
+*.rpt
+db/
+incremental_db/
+output_files/
+
+# Backup files
+*~
+*.swp
+*.swo
+*#
+.#*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Waveform viewers
+*.gtkw
+*.sav
+
+# Keep hex file
+!*.hex
